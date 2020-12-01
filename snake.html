@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/main.css" />
+
+</head>
+<body>
+
+<h1>Snake</h1>
+<p id="score"></p>
+<canvas id="myCanvas" height=400 width=400> </canvas><BR/>
+<button id="myButton" onclick="start()">Start!</button>
+
+<br/><br/><br/><br/><br/><br/>
+
+<p>Hastighet: </p><input type="range" id="mySpeed" max=10>
+<p id="speed"></p><br/>
+
+<p>Storleik: </p><input type="range" id="myResolution" min=10 max=20>
+<p id="resolution"></p><br/>
+
+<button onclick="settings()">Submit</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
